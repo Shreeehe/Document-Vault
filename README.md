@@ -15,9 +15,32 @@ A secure, local **Document Vault** that automates the boring task of formatting 
 
 ## Installation
 
-```bash
-pip install -r requirements.txt
-```
+We recommend using **uv** for ultra-fast package management.
+
+1.  **Install uv** (if not installed):
+    ```bash
+    # Windows
+    powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+    
+    # macOS/Linux
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+    ```
+
+2.  **Create & Activate Virtual Environment**:
+    ```bash
+    uv venv
+    
+    # Windows
+    .venv\Scripts\activate
+    
+    # macOS/Linux
+    source .venv/bin/activate
+    ```
+
+3.  **Install Dependencies**:
+    ```bash
+    uv pip install -r requirements.txt
+    ```
 
 ## Usage
 
