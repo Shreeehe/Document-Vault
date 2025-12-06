@@ -1,0 +1,9 @@
+hooks:
+  - name: "auto-compress-shri"
+    trigger:
+      type: "fs_watch"
+      path: "./user_data/demo_user/shri1"
+      events: ["create"]
+    action:
+      type: "run_command"
+      command: "python -m compressor.compress_any \"{file_path}\" \"./user_data/demo_user/shri2\" \"100kb\""

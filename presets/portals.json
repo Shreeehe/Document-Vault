@@ -1,0 +1,497 @@
+[
+  {
+    "id": "passport",
+    "name": "Passport Seva",
+    "target": "200kb",
+    "formats": [
+      "jpg",
+      "jpeg",
+      "png",
+      "pdf"
+    ],
+    "note": "passportindia.gov.in - Applications, renewals, reissues",
+    "required_docs": [
+      {
+        "type": "photo",
+        "label": "Photograph",
+        "target": "100kb",
+        "dims": "51x51mm",
+        "format": "jpeg"
+      },
+      {
+        "type": "aadhaar",
+        "label": "Address Proof (Aadhaar)",
+        "target": "200kb"
+      },
+      {
+        "type": "bank_passbook",
+        "label": "Address Proof (Bank Passbook)",
+        "target": "200kb"
+      },
+      {
+        "type": "10th_mark",
+        "label": "Non-ECR Proof (10th Marksheet)",
+        "target": "200kb"
+      }
+    ]
+  },
+  {
+    "id": "aadhaar",
+    "name": "Aadhaar (UIDAI)",
+    "target": "1.6mb",
+    "formats": [
+      "jpeg",
+      "png",
+      "pdf"
+    ],
+    "note": "uidai.gov.in - Enrollment, updates, demographic changes",
+    "required_docs": [
+      {
+        "type": "photo",
+        "label": "Photograph",
+        "target": "50kb",
+        "dims": "3.5x4.5cm",
+        "format": "jpeg"
+      },
+      {
+        "type": "passport",
+        "label": "Proof of Identity (Passport)",
+        "target": "1.6mb",
+        "format": "pdf"
+      },
+      {
+        "type": "pan",
+        "label": "Proof of Identity (PAN)",
+        "target": "1.6mb",
+        "format": "pdf"
+      },
+      {
+        "type": "voter_id",
+        "label": "Proof of Address (Voter ID)",
+        "target": "1.6mb",
+        "format": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "digilocker",
+    "name": "DigiLocker",
+    "target": "1mb",
+    "formats": [
+      "pdf",
+      "jpeg",
+      "png"
+    ],
+    "note": "digilocker.gov.in - Digital document wallet",
+    "required_docs": [
+      {
+        "type": "aadhaar",
+        "label": "Aadhaar",
+        "target": "1mb"
+      },
+      {
+        "type": "pan",
+        "label": "PAN",
+        "target": "1mb"
+      },
+      {
+        "type": "dl",
+        "label": "Driving License",
+        "target": "1mb"
+      },
+      {
+        "type": "10th_mark",
+        "label": "Class X Marksheet",
+        "target": "1mb"
+      },
+      {
+        "type": "12th_mark",
+        "label": "Class XII Marksheet",
+        "target": "1mb"
+      }
+    ]
+  },
+  {
+    "id": "it_return",
+    "name": "Income Tax e-Filing",
+    "target": "5mb",
+    "formats": [
+      "pdf"
+    ],
+    "note": "incometax.gov.in - ITR filing, PAN-Aadhaar linking",
+    "required_docs": [
+      {
+        "type": "form16",
+        "label": "Form 16",
+        "target": "5mb",
+        "format": "pdf"
+      },
+      {
+        "type": "bank_passbook",
+        "label": "Bank Statement",
+        "target": "5mb",
+        "format": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "epfo",
+    "name": "EPFO Unified Portal",
+    "target": "300kb",
+    "formats": [
+      "jpg",
+      "jpeg",
+      "png",
+      "pdf"
+    ],
+    "note": "unifiedportal.epfindia.gov.in - KYC updates, withdrawals",
+    "required_docs": [
+      {
+        "type": "aadhaar",
+        "label": "Aadhaar Card",
+        "target": "300kb"
+      },
+      {
+        "type": "pan",
+        "label": "PAN Card",
+        "target": "300kb"
+      },
+      {
+        "type": "bank_passbook",
+        "label": "Bank Passbook/Cheque",
+        "target": "300kb"
+      }
+    ]
+  },
+  {
+    "id": "pan_nsdl",
+    "name": "PAN Card (NSDL)",
+    "target": "300kb",
+    "formats": [
+      "pdf",
+      "jpeg"
+    ],
+    "note": "onlineservices.nsdl.com/paam - Applications and corrections",
+    "required_docs": [
+      {
+        "type": "photo",
+        "label": "Photograph",
+        "target": "50kb",
+        "dims": "3.5x2.5cm",
+        "format": "jpeg"
+      },
+      {
+        "type": "signature",
+        "label": "Signature",
+        "target": "50kb",
+        "dims": "4.5x2cm",
+        "format": "jpeg"
+      },
+      {
+        "type": "aadhaar",
+        "label": "Proof of Identity/Address",
+        "target": "300kb",
+        "format": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "pan_uti",
+    "name": "PAN Card (UTI)",
+    "target": "300kb",
+    "formats": [
+      "pdf",
+      "jpeg"
+    ],
+    "note": "UTIITSL - Applications and corrections",
+    "required_docs": [
+      {
+        "type": "photo",
+        "label": "Photograph",
+        "target": "30kb",
+        "dims": "213x213px",
+        "format": "jpeg"
+      },
+      {
+        "type": "signature",
+        "label": "Signature",
+        "target": "60kb",
+        "dims": "4.5x2cm",
+        "format": "jpeg"
+      },
+      {
+        "type": "aadhaar",
+        "label": "Proof of Identity/Address",
+        "target": "300kb",
+        "format": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "dl",
+    "name": "Parivahan Sarathi",
+    "target": "500kb",
+    "formats": [
+      "jpg",
+      "jpeg",
+      "pdf"
+    ],
+    "note": "parivahan.gov.in - Driving license applications",
+    "required_docs": [
+      {
+        "type": "photo",
+        "label": "Photograph",
+        "target": "200kb",
+        "dims": "35x45mm"
+      },
+      {
+        "type": "signature",
+        "label": "Signature",
+        "target": "20kb"
+      },
+      {
+        "type": "aadhaar",
+        "label": "Address Proof",
+        "target": "500kb",
+        "format": "pdf"
+      },
+      {
+        "type": "10th_mark",
+        "label": "Age Proof",
+        "target": "500kb",
+        "format": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "mparivahan",
+    "name": "mParivahan",
+    "target": "500kb",
+    "formats": [
+      "jpg",
+      "jpeg",
+      "pdf"
+    ],
+    "note": "mparivahan.gov.in - Virtual DL and RC",
+    "required_docs": [
+      {
+        "type": "dl",
+        "label": "Physical DL Scan",
+        "target": "500kb"
+      },
+      {
+        "type": "photo",
+        "label": "Photograph",
+        "target": "200kb"
+      }
+    ]
+  },
+  {
+    "id": "voter",
+    "name": "National Voters' Service (NVSP)",
+    "target": "240kb",
+    "formats": [
+      "jpg",
+      "jpeg",
+      "png",
+      "pdf"
+    ],
+    "note": "voters.eci.gov.in - Voter ID registration",
+    "required_docs": [
+      {
+        "type": "photo",
+        "label": "Photograph",
+        "target": "100kb",
+        "dims": "51x51mm"
+      },
+      {
+        "type": "aadhaar",
+        "label": "Address Proof",
+        "target": "200kb"
+      },
+      {
+        "type": "pan",
+        "label": "Age Proof",
+        "target": "200kb"
+      }
+    ]
+  },
+  {
+    "id": "ration",
+    "name": "State Food & Civil Supplies",
+    "target": "200kb",
+    "formats": [
+      "jpg",
+      "jpeg",
+      "pdf"
+    ],
+    "note": "Ration card applications (varies by state)",
+    "required_docs": [
+      {
+        "type": "aadhaar",
+        "label": "Head of Family Aadhaar",
+        "target": "200kb"
+      },
+      {
+        "type": "income",
+        "label": "Income Certificate",
+        "target": "200kb"
+      },
+      {
+        "type": "photo",
+        "label": "Family Photo",
+        "target": "100kb"
+      }
+    ]
+  },
+  {
+    "id": "esanad",
+    "name": "e-Sanad",
+    "target": "500kb",
+    "formats": [
+      "pdf"
+    ],
+    "note": "esanad.nic.in - Document attestation/apostille",
+    "required_docs": [
+      {
+        "type": "10th_mark",
+        "label": "10th Marksheet",
+        "target": "500kb",
+        "format": "pdf"
+      },
+      {
+        "type": "12th_mark",
+        "label": "12th Marksheet",
+        "target": "500kb",
+        "format": "pdf"
+      },
+      {
+        "type": "passport",
+        "label": "Passport Copy",
+        "target": "500kb",
+        "format": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "rti",
+    "name": "RTI Online",
+    "target": "1mb",
+    "formats": [
+      "pdf"
+    ],
+    "note": "rtionline.gov.in - RTI Applications",
+    "required_docs": [
+      {
+        "type": "rti_app",
+        "label": "Supporting Document",
+        "target": "1mb",
+        "format": "pdf"
+      }
+    ]
+  },
+  {
+    "id": "press_sewa",
+    "name": "Press Sewa Portal",
+    "target": "1mb",
+    "formats": [
+      "pdf",
+      "jpeg"
+    ],
+    "note": "prgi.gov.in - Periodical registration",
+    "required_docs": [
+      {
+        "type": "aadhaar",
+        "label": "Owner Aadhaar",
+        "target": "500kb"
+      },
+      {
+        "type": "pan",
+        "label": "Owner PAN",
+        "target": "500kb"
+      },
+      {
+        "type": "domicile",
+        "label": "Office Address Proof",
+        "target": "1mb"
+      }
+    ]
+  },
+  {
+    "id": "nsws",
+    "name": "National Single Window System",
+    "target": "2mb",
+    "formats": [
+      "pdf"
+    ],
+    "note": "nsws.gov.in - Business approvals",
+    "required_docs": [
+      {
+        "type": "pan",
+        "label": "Business/Promoter PAN",
+        "target": "1mb"
+      },
+      {
+        "type": "aadhaar",
+        "label": "Promoter Aadhaar",
+        "target": "1mb"
+      },
+      {
+        "type": "income",
+        "label": "Financial Statements",
+        "target": "2mb"
+      }
+    ]
+  },
+  {
+    "id": "umang",
+    "name": "UMANG",
+    "target": "1mb",
+    "formats": [
+      "pdf",
+      "jpeg"
+    ],
+    "note": "umang.gov.in - Unified government services",
+    "required_docs": [
+      {
+        "type": "aadhaar",
+        "label": "Aadhaar Card",
+        "target": "1mb"
+      },
+      {
+        "type": "photo",
+        "label": "Profile Photo",
+        "target": "100kb"
+      }
+    ]
+  },
+  {
+    "id": "ncs",
+    "name": "National Career Service",
+    "target": "2mb",
+    "formats": [
+      "pdf",
+      "docx"
+    ],
+    "note": "ncs.gov.in - Government Job Portal",
+    "required_docs": [
+      {
+        "type": "resume",
+        "label": "Resume / CV",
+        "target": "2mb",
+        "format": "pdf"
+      },
+      {
+        "type": "photo",
+        "label": "Profile Photo",
+        "target": "100kb",
+        "dims": "3.5x4.5cm"
+      },
+      {
+        "type": "aadhaar",
+        "label": "Identity Proof",
+        "target": "1mb"
+      }
+    ]
+  }
+]
