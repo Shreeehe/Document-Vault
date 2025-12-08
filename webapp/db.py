@@ -4,7 +4,7 @@ import bcrypt
 import certifi
 
 # Use the provided URI
-MONGO_URI = "mongodb+srv://shri:qwertyuiop@cluster0.rfvcyhz.mongodb.net/prescription_db?retryWrites=true&w=majority"
+MONGO_URI = 
 DB_NAME = "document_vault" # Using a specific DB name for this app, overriding URI default if needed, or just use URI's db. 
 # The URI has /prescription_db. Let's try to use a separate DB 'document_vault' if possible, or collection 'vault_users' in prescription_db.
 # Best practice: Use the DB from URI but separate collection.
